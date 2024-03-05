@@ -27,8 +27,6 @@ $$P(f_i|y = c) = \frac{1}{2nh} \sum^{m}_{j=1}  [ |x - x_i| < h]$$
 
 h - positive parameter called window size.
 
-The accuracy of that model in this project will measure with **Shuffle-Split Cross-Validation** method.
-
 # Usage
 
 The use of this model consists of three stages: initialization, training, and classification.
@@ -41,5 +39,8 @@ The use of this model consists of three stages: initialization, training, and cl
 
 # Testing
 
-The realized model was tested on two datasets: "Titanic" and "MNIST". The model
+The model was tested using three datasets: Titanic, MNIST, and a custom dataset that consisted of generating points with a normal distribution. The accuracy of the model was evaluated using Shuffle-Split Cross-Validation.
+- Titanic - 71%
+- MNIST - 68%
+- Points - 94%
 
